@@ -1,0 +1,146 @@
+/* TinyCode-CSS Version: 1.0.0 */
+
+/* quotes */
+.quote {
+	display: block;
+	font-style: italic;
+	width: auto;
+	padding: 10px 20px 10px 20px;
+	margin: 4px 5px;
+	background: #f6f6f6;
+	border: 1px solid #e5e5e5;
+}
+
+.quote-blue, .quote-red, .quote-green, .quote-purple, .quote-orange {
+	display: block;
+	font-style: italic;
+	width: auto;
+	padding: 10px 20px 10px 20px;
+	margin: 4px 5px;
+	border: 0;
+	background: 0;
+}
+
+.quote-blue{
+	color: #18588F;
+	background: #A8CDE3;
+	border: 1px solid #18588F;
+}
+.quote-red{
+	color: #CC3300;
+	background: #FFD5D5;
+	border: 1px solid #CC3300;
+}
+
+.quote-green{
+	color: #74A824;
+	background: #CDEFA6;
+	border: 1px solid #74A824;
+}
+
+.quote-purple{
+	color: #9E0E87;
+	background: #FE6EE7;
+	border: 1px solid #9E0E87;
+}
+
+.quote-orange{
+	color: #CC8300;
+	background: #FFF3A3;
+	border: 1px solid #CC8300;
+}
+
+/* special notices */
+span.attention, span.notice, span.alert, span.download, span.approved, span.media, span.note, span.cart, span.camera, span.doc {
+	display: block;
+	padding: 8px 10px 8px 36px;
+	margin: 0px 5px;
+}
+span.attention {color: #B79000;border: 1px solid #E7BD72;background: #FFF3A3 url(icons/attention.png) 10px 50% no-repeat;}
+span.approved {color: #648434;border: 1px solid #9BCC54;background: #CDEFA6 url(icons/approved.png) 10px 50% no-repeat;}
+span.alert {color: #CC3300;border: 1px solid #CC3300;background: #FFD5D5 url(icons/alert.png) 10px 50% no-repeat;}
+span.download {color: #1C6B8B;border: 1px solid #18588F;background: #A8CDE3 url(icons/download.png) 10px 50% no-repeat;}
+span.notice {color: #666;border: 1px solid #a8a8a8;background: #ccc url(icons/notice.png) 10px 50% no-repeat;}
+span.media {color: #C76E34;border: 1px solid #FFBB65;background: #FFE0B6 url(icons/media.png) 10px 50% no-repeat;}
+span.note {color: #B79000;border: 1px solid #E7BD72;background: #FFF3A3 url(icons/note.png) 10px 50% no-repeat;}
+span.cart {color: #666;border: 1px solid #C5C5C5;background: #E6E6E6 url(icons/cart.png) 10px 50% no-repeat;}
+span.camera {color: #666;border: 1px solid #C5C5C5;background: #E6E6E6 url(icons/camera.png) 10px 50% no-repeat;}
+span.doc {color: #C76E34;border: 1px solid #FFBB65;background: #FFE0B6 url(icons/doc.png) 10px 50% no-repeat;}
+
+/* important */
+.important, .important-blue, .important-red, .important-green, .important-purple, .important-orange, .important-brown, .important-grey {
+    display: block;
+	padding: 15px;
+	margin: 12px 0px 8px 0px;
+}
+
+span.important-title, span.important-title-blue, span.important-title-red, span.important-title-green, span.important-title-purple, span.important-title-orange, span.important-title-brown, span.important-title-grey {
+	position: absolute;
+	display: block;
+	margin-top: -24px;
+	background: #fff;
+	padding: 0 8px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.important {border: 1px solid #333;}
+.important-blue {border: 1px solid #C9D1FF;}
+.important-red {border: 1px solid #CC3300;}
+.important-green {border: 1px solid #74A824;}
+.important-purple {border: 1px solid #9E0E87;}
+.important-orange {border: 1px solid #CC8300;}
+.important-brown {border: 1px solid #8B6846;}
+.important-grey {border: 1px solid #666;}
+span.important-title {color: #333;}
+span.important-title-blue {color: #18588F;}
+span.important-title-red {color: #CC3300;}
+span.important-title-green {color: #74A824;}
+span.important-title-purple {color: #9E0E87;}
+span.important-title-orange {color: #CC8300;}
+span.important-title-brown {color: #8B6846;}
+span.important-title-grey {color: #666;}
+
+/* inset */
+span.inset-left {
+    display: block;
+    color: #000000;
+    padding: 15px;
+    float: left;
+    width: 24%;
+    font-size: 110%;
+    font-weight: bold;
+    font-style: italic;
+}
+span.inset-right {
+    display: block;
+    color: #000000;
+    padding: 15px;
+    float: right;
+    width: 24%;
+    font-size: 110%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* dropcap */
+span.dropcap, span.dropcap-blue, span.dropcap-red, span.dropcap-green, span.dropcap-purple, span.dropcap-orange, span.dropcap-brown, span.dropcap-grey {
+	display: block;
+	font-size: 260%;
+	float: left;
+	margin: 0px 4px 0 0;
+	line-height: 100%;
+}
+
+span.dropcap {color: #333;}
+span.dropcap-blue {color: #18588F;}
+span.dropcap-red {color: #CC3300;}
+span.dropcap-green {color: #74A824;}
+span.dropcap-purple {color: #9E0E87;}
+span.dropcap-orange {color: #CC8300;}
+span.dropcap-brown {color: #8B6846;}
+span.dropcap-grey {color: #666;}
+
+label.dropcap {
+    display: block;
+}
